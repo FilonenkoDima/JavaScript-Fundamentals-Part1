@@ -18,7 +18,7 @@ let myFirstJob = 'Coder';
 let myCurrentJob = 'Teacher';
 
 console.log(myFirstJob);
-*/
+
 
 // lecture: Data types
 let javascriptIsFun = true;
@@ -41,3 +41,4 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
+*/
