@@ -41,7 +41,7 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
-*/
+
 
 //let, const and var
 let age = 30;
@@ -57,3 +57,4 @@ job = 'teacher';
 
 lastName = 'Filonenko';
 console.log(lastName);
+*/
