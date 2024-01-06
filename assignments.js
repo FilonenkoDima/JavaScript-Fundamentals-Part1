@@ -26,3 +26,19 @@ const isIsland = false;
 let population = 40;
 isIsland = true;
 */
+
+//assignment to lecture - Basic Operators
+let language;
+language = "Ukraininan"
+const country = "Ukraine";
+const continent = "Europe";
+const isIsland = false;
+let population = 40;
+
+console.log(population / 2);
+population++;
+console.log(population);
+console.log(population > 6);
+console.log(population < 33);
+const description = country + " is in " + continent + ", and its " + population + " million people speak " + language;
+console.log(description);
