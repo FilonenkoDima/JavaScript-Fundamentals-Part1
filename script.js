@@ -93,7 +93,7 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2019)
-*/
+
 
 //Operator Precedence
 const now = 2037;
@@ -109,3 +109,4 @@ x = y = 25 - 10 - 5;
 console.log(x, y);
 const avarageAge = (ageDima + ageSarah) / 2;
 console.log(avarageAge);
+*/

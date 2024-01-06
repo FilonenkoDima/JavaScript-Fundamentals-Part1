@@ -43,3 +43,17 @@ console.log(population < 33);
 const description = country + " is in " + continent + ", and its " + population + " million people speak " + language;
 console.log(description);
 */
+
+//assignment to lecture - Operator Precedence
+let massMark = 78;
+const heightMark = 1.69;
+let BMIMark = massMark / (heightMark * heightMark);
+console.log(BMIMark);
+
+let massJohn = 92;
+const heightJohn = 1.95;
+let BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIJohn);
+
+let markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
