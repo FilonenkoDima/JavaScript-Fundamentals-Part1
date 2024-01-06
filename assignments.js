@@ -25,7 +25,7 @@ const continent = "Europe";
 const isIsland = false;
 let population = 40;
 isIsland = true;
-*/
+
 
 //assignment to lecture - Basic Operators
 let language;
@@ -42,3 +42,4 @@ console.log(population > 6);
 console.log(population < 33);
 const description = country + " is in " + continent + ", and its " + population + " million people speak " + language;
 console.log(description);
+*/
