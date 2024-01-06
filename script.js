@@ -58,3 +58,38 @@ job = 'teacher';
 lastName = 'Filonenko';
 console.log(lastName);
 */
+
+//Basic Operators
+
+//math operators
+const now = 2037;
+const ageDima = now - 2003;
+const ageSarah = now - 2018;
+console.log(ageDima, ageSarah);
+
+console.log(ageDima * 2, ageDima / 2, 2 ** 3);
+//2 ** 3 means 2 to the power of 3 = 2 * 2 * 2 = 8
+
+const firstName = 'Dima';
+const lastName = 'Filonenko';
+console.log(firstName + ' ' + lastName);
+
+//assignment operators
+let x = 10 + 5; //15
+x += 10; //25
+x *= 4; // 100
+x /= 10; //10
+x -= 1; //9
+x++; //10
+++x; //11
+x--; //10
+--x; //9
+console.log(x);
+
+//comparison operators
+console.log(ageDima > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2019)
