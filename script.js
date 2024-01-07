@@ -239,7 +239,7 @@ if (favourite === 27) {
 }
 
 if (favourite !== 27) console.log('Why not 27?');
-*/
+
 
 //lecture: Logical Operators
 
@@ -260,3 +260,4 @@ console.log(hasDriversLicense && hasGoodVision && isTired);
 const shouldDrive = hasDriversLicense && hasGoodVision && !isTired;
 if (shouldDrive) console.log('Sarah is able to drive');
 else console.log('Someone else should drive...');
+*/

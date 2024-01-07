@@ -145,3 +145,29 @@ if (numNeighbours === 1) console.log("Only 1 boarder!");
 else if (numNeighbours > 1) console.log("More than 1 border");
 else console.log("No borders");
 */
+
+// assignment to lecture - Logical Operators
+
+// task 1
+
+const inUkraineLanguageIsEnglish = false;
+const populationOfUrkaineLessThan50 = true;
+const UkraineIsIsland = false;
+
+if (inUkraineLanguageIsEnglish && populationOfUrkaineLessThan50 && !UkraineIsIsland) console.log("You should live in Ukraine :)");
+else console.log("Ukraine does not meet your criteria :(");
+
+const inUkraineLanguageIsEnglishTest = true;
+
+if (inUkraineLanguageIsEnglishTest && populationOfUrkaineLessThan50 && !UkraineIsIsland) console.log("You should live in Ukraine :)");
+else console.log("Ukraine does not meet your criteria :(");
+
+
+//task 2
+
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
+if (scoreDolphins > scoreKoalas) console.log("Dolphins win the trophy");
+else if (scoreDolphins < scoreKoalas) console.log("Koalas win the trophy");
+else console.log("Both win the trophy");
