@@ -144,7 +144,7 @@ const numNeighbours = Number(prompt("How many neighbour countries does your coun
 if (numNeighbours === 1) console.log("Only 1 boarder!");
 else if (numNeighbours > 1) console.log("More than 1 border");
 else console.log("No borders");
-*/
+
 
 // assignment to lecture - Logical Operators
 
@@ -171,3 +171,4 @@ const scoreKoalas = (88 + 91 + 110) / 3;
 if (scoreDolphins > scoreKoalas) console.log("Dolphins win the trophy");
 else if (scoreDolphins < scoreKoalas) console.log("Koalas win the trophy");
 else console.log("Both win the trophy");
+*/
