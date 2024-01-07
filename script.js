@@ -240,3 +240,23 @@ if (favourite === 27) {
 
 if (favourite !== 27) console.log('Why not 27?');
 */
+
+//lecture: Logical Operators
+
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //b
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// const shouldDrive = hasDriversLicense && hasGoodVision;
+// if (shouldDrive) console.log('Sarah is able to drive');
+// else console.log('Someone else should drive...');
+
+const isTired = false; //C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+const shouldDrive = hasDriversLicense && hasGoodVision && !isTired;
+if (shouldDrive) console.log('Sarah is able to drive');
+else console.log('Someone else should drive...');
