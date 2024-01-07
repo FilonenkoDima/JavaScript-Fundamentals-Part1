@@ -110,3 +110,22 @@ console.log(x, y);
 const avarageAge = (ageDima + ageSarah) / 2;
 console.log(avarageAge);
 */
+
+//Strings and Template Literals
+const firstName = 'Dima';
+const job = 'worker';
+const birthYear = 2003;
+const year = 2037;
+
+const dima = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(dima);
+
+const dimaNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(dimaNew)
+
+console.log(`Just a regular string...`);
+
+console.log('String with \nmultiple\nlines');
+console.log(`String with
+multiple
+lines`);
