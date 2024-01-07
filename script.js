@@ -158,7 +158,7 @@ if (birthYear <= 2000) {
    century = 21;
 }
 console.log(century);
-*/
+
 
 //Type Conversion and Coercion
 
@@ -182,3 +182,4 @@ console.log('23' / "2");
 let n = '1' + 1; // '11'
 n -= 1; // 10
 console.log(n);
+*/

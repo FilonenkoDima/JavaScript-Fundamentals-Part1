@@ -115,3 +115,16 @@ if (population > 33) {
    console.log(`${country}\`s population is ${33 - population} million below avarage`)
 }
 */
+
+//assignment to lecture - Type Conversion and Coercion
+const x1 = '9' - '5'; //4
+const x2 = '19' - '13' + '17'; //617
+const x3 = '19' - '13' + 17; //617 -- incorrect - 23
+const x4 = '123' < 57; //false
+const x5 = 5 + 6 + '4' + 9 - 4 - 2; // 1143
+
+console.log(x1);
+console.log(x2);
+console.log(x3);
+console.log(x4);
+console.log(x5);
