@@ -260,7 +260,7 @@ console.log(hasDriversLicense && hasGoodVision && isTired);
 const shouldDrive = hasDriversLicense && hasGoodVision && !isTired;
 if (shouldDrive) console.log('Sarah is able to drive');
 else console.log('Someone else should drive...');
-*/
+
 
 //The swith Statement
 
@@ -302,3 +302,4 @@ else if (day === 'saturday' || day === 'sunday')
    console.log('Enjoy the weekend');
 else
    console.log('Not a valid day!');
+*/
