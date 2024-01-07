@@ -159,3 +159,26 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
+
+//Type Conversion and Coercion
+
+//type conversion
+const inputYear = '2003';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Dima'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coersion
+console.log('I am ' + 23 + ' years old');
+console.log('23' - '10' - 3);
+console.log('23' + '10' + 3);
+console.log('23' * "2");
+console.log('23' / "2");
+
+let n = '1' + 1; // '11'
+n -= 1; // 10
+console.log(n);

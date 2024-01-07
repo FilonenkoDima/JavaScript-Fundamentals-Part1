@@ -73,7 +73,7 @@ const isIsland = false;
 let population = 40;
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 console.log(description);
-*/
+
 
 //assignment to lecture - Taking Decision - if / else Statements
 
@@ -114,3 +114,4 @@ if (population > 33) {
 } else {
    console.log(`${country}\`s population is ${33 - population} million below avarage`)
 }
+*/
