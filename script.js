@@ -208,7 +208,7 @@ if (height) {
 } else {
    console.log('Height is UNDEFIED');
 }
-*/
+
 
 //Equality Operators: == vs ===
 
@@ -239,3 +239,4 @@ if (favourite === 27) {
 }
 
 if (favourite !== 27) console.log('Why not 27?');
+*/

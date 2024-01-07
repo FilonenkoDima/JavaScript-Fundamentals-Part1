@@ -130,3 +130,17 @@ console.log(x3);
 console.log(x4);
 console.log(x5);
 */
+
+// assignment to lecture - Equality Operators: == vs ===
+
+// const numNeighbours = prompt("How many neighbour countries does your country have?");
+
+// if (numNeighbours == 1) console.log("Only 1 boarder!");
+// else if (numNeighbours > 1) console.log("More than 1 border");
+// else console.log("No borders");
+
+const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+
+if (numNeighbours === 1) console.log("Only 1 boarder!");
+else if (numNeighbours > 1) console.log("More than 1 border");
+else console.log("No borders");
