@@ -1,4 +1,5 @@
 /*let js = 'amazing';
+
 console.log(40 + 8 + 23 - 10);
 
 console.log('Jonas');
@@ -11,6 +12,7 @@ console.log(firstName);
 console.log(firstName);
 
 //lecture: Variable name conventions
+
 let $new = "JM";
 let PI = 3.1415;
 
@@ -21,6 +23,7 @@ console.log(myFirstJob);
 
 
 // lecture: Data types
+
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -44,6 +47,7 @@ console.log(typeof null);
 
 
 //let, const and var
+
 let age = 30;
 age = 31;
 
@@ -75,6 +79,7 @@ const lastName = 'Filonenko';
 console.log(firstName + ' ' + lastName);
 
 //assignment operators
+
 let x = 10 + 5; //15
 x += 10; //25
 x *= 4; // 100
@@ -87,6 +92,7 @@ x--; //10
 console.log(x);
 
 //comparison operators
+
 console.log(ageDima > ageSarah);
 console.log(ageSarah >= 18);
 
@@ -96,6 +102,7 @@ console.log(now - 1991 > now - 2019)
 
 
 //Operator Precedence
+
 const now = 2037;
 const ageDima = now - 2003;
 const ageSarah = now - 2018;
@@ -112,6 +119,7 @@ console.log(avarageAge);
 
 
 //Strings and Template Literals
+
 const firstName = 'Dima';
 const job = 'worker';
 const birthYear = 2003;
@@ -130,3 +138,23 @@ console.log(`String with
 multiple
 lines`);
 */
+
+//Taking Decisions: if / else Statements
+const age = 15;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+   console.log('Dima can start driving license🚗');
+} else {
+   const yearsLeft = 18 - age;
+   console.log(`Dima is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2003;
+let century;
+if (birthYear <= 2000) {
+   century = 20;
+} else {
+   century = 21;
+}
+console.log(century);

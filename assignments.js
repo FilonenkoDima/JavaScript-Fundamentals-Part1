@@ -57,7 +57,7 @@ console.log(BMIJohn);
 
 let markHigherBMI = BMIMark > BMIJohn;
 console.log(markHigherBMI);
-*/
+
 
 let language;
 language = "Ukraininan"
@@ -67,3 +67,4 @@ const isIsland = false;
 let population = 40;
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 console.log(description);
+*/
