@@ -109,7 +109,7 @@ x = y = 25 - 10 - 5;
 console.log(x, y);
 const avarageAge = (ageDima + ageSarah) / 2;
 console.log(avarageAge);
-*/
+
 
 //Strings and Template Literals
 const firstName = 'Dima';
@@ -129,3 +129,4 @@ console.log('String with \nmultiple\nlines');
 console.log(`String with
 multiple
 lines`);
+*/
