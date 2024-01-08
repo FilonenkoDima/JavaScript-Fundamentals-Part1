@@ -302,7 +302,7 @@ else if (day === 'saturday' || day === 'sunday')
    console.log('Enjoy the weekend');
 else
    console.log('Not a valid day!');
-*/
+
 
 // The Conditional (Ternary) Operator
 
@@ -318,3 +318,4 @@ else drink2 = 'water';
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/

@@ -196,3 +196,29 @@ switch (language) {
       console.log('Great language too :D');
 }
 */
+
+// assignment to lecture - The Conditional(Ternary) Operator
+
+// task - 1
+let language;
+language = "Ukraininan"
+const country = "Ukraine";
+const continent = "Europe";
+const isIsland = false;
+let population = 40;
+console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`);
+
+population = 13;
+console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`);
+
+population = 130;
+console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`);
+
+// task - 2
+let tip;
+const bill = 275;
+if (bill > 50 && bill < 300) tip = bill * 0.15;
+else tip = bill * 0.2;
+console.log(bill, tip, bill + tip);
+
+console.log(`The bill was ${bill}, the tip was ${(bill > 50 && bill < 300) ? tip = bill * 0.15 : tip = bill * 0.2}, and the total value ${bill + tip}`);
